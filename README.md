@@ -32,8 +32,8 @@ Plate：板级控制（Plate Controls），每块板都会同时处理 pooled pl
 
 Run：重标肽标准品（Internal Calibrators）信号检测控制（Signal Detection Controls），专用参考进样（reference injections）中加入浓度匹配的稳定同位素标记肽段作为 Internal Calibrators，用于在大量血浆/血清蛋白组研究中实现一致的定量，并具备良好的可合成可获得性。它们用于跨 Run 跟踪并校准 LC–MS 的肽段检测表现，包括信号响应、色谱稳定性以及仪器 Run-to-Run 漂移。这些 Internal Calibrators 支持信号检测层面的标准化（signal-detection normalization），用于跨 Run 的数据对齐，并通过校正与仪器相关的变异，确保整个研究期间质谱性能稳定。
 
-script：存放脚本用；
+新建script文件夹：存放脚本用；
 
-Results：存放分析结果用；
+新建Results文件夹：存放分析结果用；
 
 旧示例：里面包含我们之前做过的矫正流程，给你做参考用，当时是整理好了一个RData对象，里面有所有要用到的数据，所以与现在的这种所有数据都是单独的表格文件不太一样，但是数据类型与内容形式含义都是一样的。
