@@ -1,0 +1,926 @@
+sample_id	k	n_features	factor_type
+WJ-1-10	-0.0817276752047249	47	sample_complete_global
+WJ-1-100	0.133519442991386	47	sample_complete_global
+WJ-1-106	-0.0106954747772221	47	sample_complete_global
+WJ-1-107	-0.0433203660318782	47	sample_complete_global
+WJ-1-108	-0.0154295935190021	47	sample_complete_global
+WJ-1-109	0.0389630769936744	47	sample_complete_global
+WJ-1-11	-0.0225981627452967	47	sample_complete_global
+WJ-1-110	0.000962379719162243	47	sample_complete_global
+WJ-1-111	0.049564199556869	47	sample_complete_global
+WJ-1-113	0.039337226455082	47	sample_complete_global
+WJ-1-114	-0.00484954862645992	47	sample_complete_global
+WJ-1-115	-0.0250575674743843	47	sample_complete_global
+WJ-1-116	-0.046221882782028	47	sample_complete_global
+WJ-1-117	-0.0240908082335025	47	sample_complete_global
+WJ-1-118	-0.060676754949526	47	sample_complete_global
+WJ-1-119	-0.0252982123042074	47	sample_complete_global
+WJ-1-12	-0.10447959789478	47	sample_complete_global
+WJ-1-120	-0.056391068938467	47	sample_complete_global
+WJ-1-121	-0.0112780716805503	47	sample_complete_global
+WJ-1-122	-0.033785352626758	47	sample_complete_global
+WJ-1-124	-0.0648881622316679	47	sample_complete_global
+WJ-1-125	0.0211241800736204	47	sample_complete_global
+WJ-1-126	-0.031068491918596	47	sample_complete_global
+WJ-1-127	-0.0331920122814537	47	sample_complete_global
+WJ-1-128	0.0347979693772942	47	sample_complete_global
+WJ-1-129	0.1130983464464	47	sample_complete_global
+WJ-1-13	-0.0357876827895254	47	sample_complete_global
+WJ-1-130	-0.0398519606814745	47	sample_complete_global
+WJ-1-131	-0.0308016410377192	47	sample_complete_global
+WJ-1-132	-0.0809688035637279	47	sample_complete_global
+WJ-1-133	0.0260793515995417	47	sample_complete_global
+WJ-1-134	-0.0738387951308823	47	sample_complete_global
+WJ-1-135	-0.0401610615506414	47	sample_complete_global
+WJ-1-136	-0.0326787044126462	47	sample_complete_global
+WJ-1-137	0.00238158043310222	47	sample_complete_global
+WJ-1-138	-0.00281909642994549	47	sample_complete_global
+WJ-1-139	-0.0867742149862423	47	sample_complete_global
+WJ-1-14	-0.111702308811935	47	sample_complete_global
+WJ-1-140	-0.0419389831260233	47	sample_complete_global
+WJ-1-142	-0.127393489704552	47	sample_complete_global
+WJ-1-143	-0.127281340223881	47	sample_complete_global
+WJ-1-144	-0.0877417054326557	47	sample_complete_global
+WJ-1-145	0.0310381191317077	47	sample_complete_global
+WJ-1-147	0.000886143754854629	47	sample_complete_global
+WJ-1-149	-0.0142669324333795	47	sample_complete_global
+WJ-1-15	-0.0836271452402357	47	sample_complete_global
+WJ-1-151	-0.0493499230315635	47	sample_complete_global
+WJ-1-152	-0.040467662718676	47	sample_complete_global
+WJ-1-153	0.00795151576195963	47	sample_complete_global
+WJ-1-154	-0.0589284851315313	47	sample_complete_global
+WJ-1-155	-0.00890595386174198	47	sample_complete_global
+WJ-1-156	-0.0765306909650008	47	sample_complete_global
+WJ-1-158	0	47	sample_complete_global
+WJ-1-159	-0.00977534693939219	47	sample_complete_global
+WJ-1-16	-0.0308447535385241	47	sample_complete_global
+WJ-1-160	0.0583697610680076	47	sample_complete_global
+WJ-1-161	0.0708222921713428	47	sample_complete_global
+WJ-1-163	-0.0155851401106375	47	sample_complete_global
+WJ-1-164	0.002615822538651	47	sample_complete_global
+WJ-1-165	0.0475059220851506	47	sample_complete_global
+WJ-1-166	0.0385180035428547	47	sample_complete_global
+WJ-1-167	0.103803634112062	47	sample_complete_global
+WJ-1-168	0.0791671396506146	47	sample_complete_global
+WJ-1-169	0.0449922552730015	47	sample_complete_global
+WJ-1-17	-0.0561778974621774	47	sample_complete_global
+WJ-1-170	0.118749343868338	47	sample_complete_global
+WJ-1-172	0.00557111444490488	47	sample_complete_global
+WJ-1-173	0	47	sample_complete_global
+WJ-1-174	0.101975500423443	47	sample_complete_global
+WJ-1-175	0.0213048703609573	47	sample_complete_global
+WJ-1-179	0.493844806644653	47	sample_complete_global
+WJ-1-18	-0.0502702918000324	47	sample_complete_global
+WJ-1-180	0.142709664599117	47	sample_complete_global
+WJ-1-181	0.00523677833751179	47	sample_complete_global
+WJ-1-182	0.0957088550288105	47	sample_complete_global
+WJ-1-183	0.120512976550785	47	sample_complete_global
+WJ-1-184	0.120287376308859	47	sample_complete_global
+WJ-1-185	0.029862639465307	47	sample_complete_global
+WJ-1-186	0.175008571669615	47	sample_complete_global
+WJ-1-188	-0.0228722238131383	47	sample_complete_global
+WJ-1-189	-0.0109037644393908	47	sample_complete_global
+WJ-1-190	-0.0363372005911202	47	sample_complete_global
+WJ-1-194	0.00556904897250377	47	sample_complete_global
+WJ-1-195	0.115273575572246	47	sample_complete_global
+WJ-1-196	-0.0152701427451731	47	sample_complete_global
+WJ-1-197	0.164893234426714	47	sample_complete_global
+WJ-1-198	0.0348088424029385	47	sample_complete_global
+WJ-1-199	0.0250581128824692	47	sample_complete_global
+WJ-1-2	-0.163011831591227	47	sample_complete_global
+WJ-1-20	-0.0352936629676535	47	sample_complete_global
+WJ-1-200	0.00100729097810159	47	sample_complete_global
+WJ-1-201	0.0174120220224054	47	sample_complete_global
+WJ-1-202	0.047272554412281	47	sample_complete_global
+WJ-1-204	-0.0139850925053935	47	sample_complete_global
+WJ-1-205	-0.00722164854764174	47	sample_complete_global
+WJ-1-206	0.0239374854203192	47	sample_complete_global
+WJ-1-207	-0.0101870403247943	47	sample_complete_global
+WJ-1-210	-0.010283540707114	47	sample_complete_global
+WJ-1-211	-0.0681794878646329	47	sample_complete_global
+WJ-1-214	-0.0945910762304081	47	sample_complete_global
+WJ-1-215	-0.0624232580445607	47	sample_complete_global
+WJ-1-216	-0.0800352762922003	47	sample_complete_global
+WJ-1-217	-0.0602663441949076	47	sample_complete_global
+WJ-1-218	-0.0721473507592947	47	sample_complete_global
+WJ-1-22	-0.0344136714604062	47	sample_complete_global
+WJ-1-220	-0.0343178588945392	47	sample_complete_global
+WJ-1-221	-0.0750414884680524	47	sample_complete_global
+WJ-1-222	-0.0147358979703043	47	sample_complete_global
+WJ-1-223	-0.102056236823877	47	sample_complete_global
+WJ-1-224	-0.063805247356953	47	sample_complete_global
+WJ-1-225	-0.0295321907223638	47	sample_complete_global
+WJ-1-226	-0.0335936602832874	47	sample_complete_global
+WJ-1-227	-0.0182710490014557	47	sample_complete_global
+WJ-1-228	0.00792134637400466	47	sample_complete_global
+WJ-1-229	0	47	sample_complete_global
+WJ-1-23	0.0346301383608107	47	sample_complete_global
+WJ-1-230	-0.0395795851943674	47	sample_complete_global
+WJ-1-24	-0.0366188774917902	47	sample_complete_global
+WJ-1-25	-0.056298191741412	47	sample_complete_global
+WJ-1-26	-0.231841172644089	47	sample_complete_global
+WJ-1-28	-0.253901591919401	47	sample_complete_global
+WJ-1-29	-0.218718112102337	47	sample_complete_global
+WJ-1-3	-0.138722935953467	47	sample_complete_global
+WJ-1-30	-0.317374959037601	47	sample_complete_global
+WJ-1-31	-0.319771578444239	47	sample_complete_global
+WJ-1-32	-0.256954657341581	47	sample_complete_global
+WJ-1-33	-0.292427203353356	47	sample_complete_global
+WJ-1-34	-0.259994861625366	47	sample_complete_global
+WJ-1-35	-0.311156871582206	47	sample_complete_global
+WJ-1-36	-0.332153444674979	47	sample_complete_global
+WJ-1-37	-0.271489376165498	47	sample_complete_global
+WJ-1-38	-0.269124843928047	47	sample_complete_global
+WJ-1-39	-0.30912062321277	47	sample_complete_global
+WJ-1-4	-0.0578072628864916	47	sample_complete_global
+WJ-1-40	-0.21465847960485	47	sample_complete_global
+WJ-1-41	-0.238716146487739	47	sample_complete_global
+WJ-1-42	-0.192061063681336	47	sample_complete_global
+WJ-1-46	-0.167963610100955	47	sample_complete_global
+WJ-1-47	-0.137259743048396	47	sample_complete_global
+WJ-1-48	-0.148357195506115	47	sample_complete_global
+WJ-1-49	0.128586806951375	47	sample_complete_global
+WJ-1-50	-0.0244873517113575	47	sample_complete_global
+WJ-1-51	-0.0230647725452116	47	sample_complete_global
+WJ-1-52	-0.177444231771595	47	sample_complete_global
+WJ-1-53	-0.0132695399700538	47	sample_complete_global
+WJ-1-55	0.0892926575863058	47	sample_complete_global
+WJ-1-56	0.0864423376859946	47	sample_complete_global
+WJ-1-57	0.100551972268271	47	sample_complete_global
+WJ-1-58	0.0741903814316274	47	sample_complete_global
+WJ-1-6	0.0127675009648627	47	sample_complete_global
+WJ-1-60	0.0505172809558658	47	sample_complete_global
+WJ-1-61	0.0556704216135913	47	sample_complete_global
+WJ-1-62	0.084796228188921	47	sample_complete_global
+WJ-1-63	0.0697921668332384	47	sample_complete_global
+WJ-1-64	0.101715874412889	47	sample_complete_global
+WJ-1-65	0.164770910978142	47	sample_complete_global
+WJ-1-68	0.0283176861313592	47	sample_complete_global
+WJ-1-78	0.132172077218023	47	sample_complete_global
+WJ-1-79	0.142972995760907	47	sample_complete_global
+WJ-1-8	-0.0687719307163093	47	sample_complete_global
+WJ-1-80	0.0485086313869942	47	sample_complete_global
+WJ-1-81	0.165264904358281	47	sample_complete_global
+WJ-1-82	0.0369289982870029	47	sample_complete_global
+WJ-1-84	-0.00325231211547816	47	sample_complete_global
+WJ-1-85	0.0501801993069648	47	sample_complete_global
+WJ-1-86	0.0604807406523236	47	sample_complete_global
+WJ-1-87	0.0356148697960919	47	sample_complete_global
+WJ-1-88	0.0275868766077139	47	sample_complete_global
+WJ-1-89	0.040209371780179	47	sample_complete_global
+WJ-1-9	-0.140734766182341	47	sample_complete_global
+WJ-1-91	0.0311632874729568	47	sample_complete_global
+WJ-1-92	0.0596334946938626	47	sample_complete_global
+WJ-1-93	0.0637124384658492	47	sample_complete_global
+WJ-1-94	0.0412210402688373	47	sample_complete_global
+WJ-1-98	0.129017729561795	47	sample_complete_global
+WJ-1-99	0.0945268859947106	47	sample_complete_global
+WJ-1-69	0.42520915176744	47	sample_complete_global
+WJ-1-70	0.348740790157429	47	sample_complete_global
+WJ-1-71	0.445179185572265	47	sample_complete_global
+WJ-1-72	0.296350399771679	47	sample_complete_global
+WJ-1-73	0.229602084808189	47	sample_complete_global
+WJ-1-74	0.193109333275071	47	sample_complete_global
+WJ-1-75	0.253030379202357	47	sample_complete_global
+WJ-1-76	0.285422497990723	47	sample_complete_global
+WJ-1-77	0.230471554947872	47	sample_complete_global
+WJ-1-10		0	sample_complete_group
+WJ-1-100		0	sample_complete_group
+WJ-1-106		0	sample_complete_group
+WJ-1-107		0	sample_complete_group
+WJ-1-108		0	sample_complete_group
+WJ-1-109		0	sample_complete_group
+WJ-1-11		0	sample_complete_group
+WJ-1-110		0	sample_complete_group
+WJ-1-111		0	sample_complete_group
+WJ-1-113		0	sample_complete_group
+WJ-1-114		0	sample_complete_group
+WJ-1-115		0	sample_complete_group
+WJ-1-116		0	sample_complete_group
+WJ-1-117		0	sample_complete_group
+WJ-1-118		0	sample_complete_group
+WJ-1-119		0	sample_complete_group
+WJ-1-12		0	sample_complete_group
+WJ-1-120		0	sample_complete_group
+WJ-1-121		0	sample_complete_group
+WJ-1-122		0	sample_complete_group
+WJ-1-124		0	sample_complete_group
+WJ-1-125		0	sample_complete_group
+WJ-1-126		0	sample_complete_group
+WJ-1-127		0	sample_complete_group
+WJ-1-128		0	sample_complete_group
+WJ-1-129		0	sample_complete_group
+WJ-1-13		0	sample_complete_group
+WJ-1-130		0	sample_complete_group
+WJ-1-131		0	sample_complete_group
+WJ-1-132		0	sample_complete_group
+WJ-1-133		0	sample_complete_group
+WJ-1-134		0	sample_complete_group
+WJ-1-135		0	sample_complete_group
+WJ-1-136		0	sample_complete_group
+WJ-1-137		0	sample_complete_group
+WJ-1-138		0	sample_complete_group
+WJ-1-139		0	sample_complete_group
+WJ-1-14		0	sample_complete_group
+WJ-1-140		0	sample_complete_group
+WJ-1-142		0	sample_complete_group
+WJ-1-143		0	sample_complete_group
+WJ-1-144		0	sample_complete_group
+WJ-1-145		0	sample_complete_group
+WJ-1-147		0	sample_complete_group
+WJ-1-149		0	sample_complete_group
+WJ-1-15		0	sample_complete_group
+WJ-1-151		0	sample_complete_group
+WJ-1-152		0	sample_complete_group
+WJ-1-153		0	sample_complete_group
+WJ-1-154		0	sample_complete_group
+WJ-1-155		0	sample_complete_group
+WJ-1-156		0	sample_complete_group
+WJ-1-158		0	sample_complete_group
+WJ-1-159		0	sample_complete_group
+WJ-1-16		0	sample_complete_group
+WJ-1-160		0	sample_complete_group
+WJ-1-161		0	sample_complete_group
+WJ-1-163		0	sample_complete_group
+WJ-1-164		0	sample_complete_group
+WJ-1-165		0	sample_complete_group
+WJ-1-166		0	sample_complete_group
+WJ-1-167		0	sample_complete_group
+WJ-1-168		0	sample_complete_group
+WJ-1-169		0	sample_complete_group
+WJ-1-17		0	sample_complete_group
+WJ-1-170		0	sample_complete_group
+WJ-1-172		0	sample_complete_group
+WJ-1-173		0	sample_complete_group
+WJ-1-174		0	sample_complete_group
+WJ-1-175		0	sample_complete_group
+WJ-1-179		0	sample_complete_group
+WJ-1-18		0	sample_complete_group
+WJ-1-180		0	sample_complete_group
+WJ-1-181		0	sample_complete_group
+WJ-1-182		0	sample_complete_group
+WJ-1-183		0	sample_complete_group
+WJ-1-184		0	sample_complete_group
+WJ-1-185		0	sample_complete_group
+WJ-1-186		0	sample_complete_group
+WJ-1-188		0	sample_complete_group
+WJ-1-189		0	sample_complete_group
+WJ-1-190		0	sample_complete_group
+WJ-1-194		0	sample_complete_group
+WJ-1-195		0	sample_complete_group
+WJ-1-196		0	sample_complete_group
+WJ-1-197		0	sample_complete_group
+WJ-1-198		0	sample_complete_group
+WJ-1-199		0	sample_complete_group
+WJ-1-2		0	sample_complete_group
+WJ-1-20		0	sample_complete_group
+WJ-1-200		0	sample_complete_group
+WJ-1-201		0	sample_complete_group
+WJ-1-202		0	sample_complete_group
+WJ-1-204		0	sample_complete_group
+WJ-1-205		0	sample_complete_group
+WJ-1-206		0	sample_complete_group
+WJ-1-207		0	sample_complete_group
+WJ-1-210		0	sample_complete_group
+WJ-1-211		0	sample_complete_group
+WJ-1-214		0	sample_complete_group
+WJ-1-215		0	sample_complete_group
+WJ-1-216		0	sample_complete_group
+WJ-1-217		0	sample_complete_group
+WJ-1-218		0	sample_complete_group
+WJ-1-22		0	sample_complete_group
+WJ-1-220		0	sample_complete_group
+WJ-1-221		0	sample_complete_group
+WJ-1-222		0	sample_complete_group
+WJ-1-223		0	sample_complete_group
+WJ-1-224		0	sample_complete_group
+WJ-1-225		0	sample_complete_group
+WJ-1-226		0	sample_complete_group
+WJ-1-227		0	sample_complete_group
+WJ-1-228		0	sample_complete_group
+WJ-1-229		0	sample_complete_group
+WJ-1-23		0	sample_complete_group
+WJ-1-230		0	sample_complete_group
+WJ-1-24		0	sample_complete_group
+WJ-1-25		0	sample_complete_group
+WJ-1-26		0	sample_complete_group
+WJ-1-28		0	sample_complete_group
+WJ-1-29		0	sample_complete_group
+WJ-1-3		0	sample_complete_group
+WJ-1-30		0	sample_complete_group
+WJ-1-31		0	sample_complete_group
+WJ-1-32		0	sample_complete_group
+WJ-1-33		0	sample_complete_group
+WJ-1-34		0	sample_complete_group
+WJ-1-35		0	sample_complete_group
+WJ-1-36		0	sample_complete_group
+WJ-1-37		0	sample_complete_group
+WJ-1-38		0	sample_complete_group
+WJ-1-39		0	sample_complete_group
+WJ-1-4		0	sample_complete_group
+WJ-1-40		0	sample_complete_group
+WJ-1-41		0	sample_complete_group
+WJ-1-42		0	sample_complete_group
+WJ-1-46		0	sample_complete_group
+WJ-1-47		0	sample_complete_group
+WJ-1-48		0	sample_complete_group
+WJ-1-49		0	sample_complete_group
+WJ-1-50		0	sample_complete_group
+WJ-1-51		0	sample_complete_group
+WJ-1-52		0	sample_complete_group
+WJ-1-53		0	sample_complete_group
+WJ-1-55		0	sample_complete_group
+WJ-1-56		0	sample_complete_group
+WJ-1-57		0	sample_complete_group
+WJ-1-58		0	sample_complete_group
+WJ-1-6		0	sample_complete_group
+WJ-1-60		0	sample_complete_group
+WJ-1-61		0	sample_complete_group
+WJ-1-62		0	sample_complete_group
+WJ-1-63		0	sample_complete_group
+WJ-1-64		0	sample_complete_group
+WJ-1-65		0	sample_complete_group
+WJ-1-68		0	sample_complete_group
+WJ-1-78		0	sample_complete_group
+WJ-1-79		0	sample_complete_group
+WJ-1-8		0	sample_complete_group
+WJ-1-80		0	sample_complete_group
+WJ-1-81		0	sample_complete_group
+WJ-1-82		0	sample_complete_group
+WJ-1-84		0	sample_complete_group
+WJ-1-85		0	sample_complete_group
+WJ-1-86		0	sample_complete_group
+WJ-1-87		0	sample_complete_group
+WJ-1-88		0	sample_complete_group
+WJ-1-89		0	sample_complete_group
+WJ-1-9		0	sample_complete_group
+WJ-1-91		0	sample_complete_group
+WJ-1-92		0	sample_complete_group
+WJ-1-93		0	sample_complete_group
+WJ-1-94		0	sample_complete_group
+WJ-1-98		0	sample_complete_group
+WJ-1-99		0	sample_complete_group
+WJ-1-69		0	sample_complete_group
+WJ-1-70		0	sample_complete_group
+WJ-1-71		0	sample_complete_group
+WJ-1-72		0	sample_complete_group
+WJ-1-73		0	sample_complete_group
+WJ-1-74		0	sample_complete_group
+WJ-1-75		0	sample_complete_group
+WJ-1-76		0	sample_complete_group
+WJ-1-77		0	sample_complete_group
+WJ-1-10	-0.1033793307395	50	sample_available_global
+WJ-1-100	0.134220117774099	50	sample_available_global
+WJ-1-106	-0.0102165664388849	50	sample_available_global
+WJ-1-107	-0.0215619750021929	50	sample_available_global
+WJ-1-108	-0.00959777794852812	49	sample_available_global
+WJ-1-109	0.0389630769936744	50	sample_available_global
+WJ-1-11	-0.0301624843805541	50	sample_available_global
+WJ-1-110	0.000962379719162243	50	sample_available_global
+WJ-1-111	0.049564199556869	49	sample_available_global
+WJ-1-113	0.0345826746495987	50	sample_available_global
+WJ-1-114	-0.00484954862645992	50	sample_available_global
+WJ-1-115	-0.00856100473829713	50	sample_available_global
+WJ-1-116	-0.0452731842040066	50	sample_available_global
+WJ-1-117	-0.0279941587907047	49	sample_available_global
+WJ-1-118	-0.0535848256761753	50	sample_available_global
+WJ-1-119	-0.0290438558654245	50	sample_available_global
+WJ-1-12	-0.116753996166828	50	sample_available_global
+WJ-1-120	-0.0553189821761251	50	sample_available_global
+WJ-1-121	-0.0112780716805503	50	sample_available_global
+WJ-1-122	-0.0309578215410795	50	sample_available_global
+WJ-1-124	-0.0648881622316679	50	sample_available_global
+WJ-1-125	0.0211241800736204	50	sample_available_global
+WJ-1-126	-0.0153851875781257	50	sample_available_global
+WJ-1-127	-0.0331920122814537	50	sample_available_global
+WJ-1-128	0.0347979693772942	50	sample_available_global
+WJ-1-129	0.10555724250591	50	sample_available_global
+WJ-1-13	-0.0412749065616609	50	sample_available_global
+WJ-1-130	-0.0348704874167396	50	sample_available_global
+WJ-1-131	-0.0363806670160187	50	sample_available_global
+WJ-1-132	-0.0660863456844609	50	sample_available_global
+WJ-1-133	0.0260793515995417	50	sample_available_global
+WJ-1-134	-0.056565038320926	50	sample_available_global
+WJ-1-135	-0.0401610615506414	50	sample_available_global
+WJ-1-136	-0.0345235584101928	50	sample_available_global
+WJ-1-137	0.00238158043310222	50	sample_available_global
+WJ-1-138	-0.00281909642994549	50	sample_available_global
+WJ-1-139	-0.0716012689824552	50	sample_available_global
+WJ-1-14	-0.111702308811935	50	sample_available_global
+WJ-1-140	-0.039532070029189	50	sample_available_global
+WJ-1-142	-0.120350082700554	50	sample_available_global
+WJ-1-143	-0.0973925659386836	50	sample_available_global
+WJ-1-144	-0.0877417054326557	50	sample_available_global
+WJ-1-145	0.0310381191317077	50	sample_available_global
+WJ-1-147	0.000886143754854629	50	sample_available_global
+WJ-1-149	-0.0131803984698067	50	sample_available_global
+WJ-1-15	-0.0836271452402357	50	sample_available_global
+WJ-1-151	-0.0670470303924873	50	sample_available_global
+WJ-1-152	-0.0452321506783093	50	sample_available_global
+WJ-1-153	0.00795151576195963	50	sample_available_global
+WJ-1-154	-0.0589284851315313	50	sample_available_global
+WJ-1-155	-0.00890595386174198	50	sample_available_global
+WJ-1-156	-0.0765306909650008	50	sample_available_global
+WJ-1-158	0.000500125208311886	50	sample_available_global
+WJ-1-159	-0.00977534693939219	50	sample_available_global
+WJ-1-16	-0.0308447535385241	50	sample_available_global
+WJ-1-160	0.0583697610680076	50	sample_available_global
+WJ-1-161	0.0837277495493041	50	sample_available_global
+WJ-1-163	-0.000726068722919138	50	sample_available_global
+WJ-1-164	0.0119990349745791	50	sample_available_global
+WJ-1-165	0.0495813252171473	50	sample_available_global
+WJ-1-166	0.051888491675598	50	sample_available_global
+WJ-1-167	0.103803634112062	50	sample_available_global
+WJ-1-168	0.0645782401440727	50	sample_available_global
+WJ-1-169	0.0449922552730015	50	sample_available_global
+WJ-1-17	-0.12407778098396	50	sample_available_global
+WJ-1-170	0.118749343868338	50	sample_available_global
+WJ-1-172	0.026205036297057	50	sample_available_global
+WJ-1-173	0.00659457810141362	49	sample_available_global
+WJ-1-174	0.107853391030822	50	sample_available_global
+WJ-1-175	0.0213048703609573	50	sample_available_global
+WJ-1-179	0.502185412930054	50	sample_available_global
+WJ-1-18	-0.0326887869576211	50	sample_available_global
+WJ-1-180	0.142709664599117	50	sample_available_global
+WJ-1-181	0.00523677833751179	50	sample_available_global
+WJ-1-182	0.0813162776475238	50	sample_available_global
+WJ-1-183	0.120512976550785	50	sample_available_global
+WJ-1-184	0.118414950370301	50	sample_available_global
+WJ-1-185	0.029862639465307	50	sample_available_global
+WJ-1-186	0.179038857796627	50	sample_available_global
+WJ-1-188	-0.0419368535373366	50	sample_available_global
+WJ-1-189	-0.0361902466118735	50	sample_available_global
+WJ-1-190	-0.0363372005911202	50	sample_available_global
+WJ-1-194	0.00296266154040836	50	sample_available_global
+WJ-1-195	0.115273575572246	50	sample_available_global
+WJ-1-196	-0.014635136817688	50	sample_available_global
+WJ-1-197	0.164893234426714	50	sample_available_global
+WJ-1-198	0.0363638518731975	50	sample_available_global
+WJ-1-199	0.0250581128824692	50	sample_available_global
+WJ-1-2	-0.163011831591227	50	sample_available_global
+WJ-1-20	-0.0352936629676535	50	sample_available_global
+WJ-1-200	0.0019122552138171	50	sample_available_global
+WJ-1-201	0.0174120220224054	50	sample_available_global
+WJ-1-202	0.047272554412281	50	sample_available_global
+WJ-1-204	-0.0139850925053935	50	sample_available_global
+WJ-1-205	-0.0064053471511798	50	sample_available_global
+WJ-1-206	0.0186753751480353	50	sample_available_global
+WJ-1-207	-0.0101870403247943	50	sample_available_global
+WJ-1-210	-0.00721197242057059	50	sample_available_global
+WJ-1-211	-0.0772939247567237	50	sample_available_global
+WJ-1-214	-0.0945910762304081	50	sample_available_global
+WJ-1-215	-0.0645043949159003	50	sample_available_global
+WJ-1-216	-0.0856692152249821	50	sample_available_global
+WJ-1-217	-0.0614896433629752	50	sample_available_global
+WJ-1-218	-0.0747401407727182	50	sample_available_global
+WJ-1-22	-0.0344136714604062	50	sample_available_global
+WJ-1-220	-0.0445099158289679	50	sample_available_global
+WJ-1-221	-0.0750414884680524	50	sample_available_global
+WJ-1-222	-0.0147358979703043	50	sample_available_global
+WJ-1-223	-0.102056236823877	50	sample_available_global
+WJ-1-224	-0.0688080558458282	50	sample_available_global
+WJ-1-225	-0.032830183228306	50	sample_available_global
+WJ-1-226	-0.0335936602832874	50	sample_available_global
+WJ-1-227	-0.0182710490014557	50	sample_available_global
+WJ-1-228	-0.00803999116256904	50	sample_available_global
+WJ-1-229	-0.0185590097718134	50	sample_available_global
+WJ-1-23	0.0238603800188528	50	sample_available_global
+WJ-1-230	-0.0395795851943674	50	sample_available_global
+WJ-1-24	-0.0536043877774759	50	sample_available_global
+WJ-1-25	-0.069444348529828	50	sample_available_global
+WJ-1-26	-0.231841172644089	50	sample_available_global
+WJ-1-28	-0.253901591919401	50	sample_available_global
+WJ-1-29	-0.219620980654327	50	sample_available_global
+WJ-1-3	-0.159082654419748	50	sample_available_global
+WJ-1-30	-0.317374959037601	50	sample_available_global
+WJ-1-31	-0.319771578444239	50	sample_available_global
+WJ-1-32	-0.257207017520159	50	sample_available_global
+WJ-1-33	-0.292427203353356	50	sample_available_global
+WJ-1-34	-0.261993142261211	50	sample_available_global
+WJ-1-35	-0.312884755172156	50	sample_available_global
+WJ-1-36	-0.332153444674979	50	sample_available_global
+WJ-1-37	-0.271489376165498	50	sample_available_global
+WJ-1-38	-0.269124843928047	50	sample_available_global
+WJ-1-39	-0.30912062321277	50	sample_available_global
+WJ-1-4	-0.0578072628864916	50	sample_available_global
+WJ-1-40	-0.216361255547952	50	sample_available_global
+WJ-1-41	-0.206598951446431	50	sample_available_global
+WJ-1-42	-0.192061063681336	50	sample_available_global
+WJ-1-46	-0.160779273007634	50	sample_available_global
+WJ-1-47	-0.13368814436344	50	sample_available_global
+WJ-1-48	-0.148357195506115	50	sample_available_global
+WJ-1-49	0.126501028255561	50	sample_available_global
+WJ-1-50	-0.0381084256377164	50	sample_available_global
+WJ-1-51	-0.0205947506300674	50	sample_available_global
+WJ-1-52	-0.177444231771595	50	sample_available_global
+WJ-1-53	-0.0119160560498557	50	sample_available_global
+WJ-1-55	0.0831266392222432	50	sample_available_global
+WJ-1-56	0.0989259095772042	50	sample_available_global
+WJ-1-57	0.100551972268271	50	sample_available_global
+WJ-1-58	0.0846889830945017	50	sample_available_global
+WJ-1-6	0.0127675009648627	50	sample_available_global
+WJ-1-60	0.0574410558992327	50	sample_available_global
+WJ-1-61	0.0686423721842928	50	sample_available_global
+WJ-1-62	0.102261135172881	50	sample_available_global
+WJ-1-63	0.0697708520365765	50	sample_available_global
+WJ-1-64	0.101715874412889	50	sample_available_global
+WJ-1-65	0.165819157545755	50	sample_available_global
+WJ-1-68	0.0283176861313592	50	sample_available_global
+WJ-1-78	0.124710789215882	50	sample_available_global
+WJ-1-79	0.133712193159965	50	sample_available_global
+WJ-1-8	-0.0975668504801419	50	sample_available_global
+WJ-1-80	0.0442180999884627	50	sample_available_global
+WJ-1-81	0.140994912947669	50	sample_available_global
+WJ-1-82	0.0306414386725891	50	sample_available_global
+WJ-1-84	-0.0184694007001696	50	sample_available_global
+WJ-1-85	0.0501801993069648	50	sample_available_global
+WJ-1-86	0.0587263429923226	50	sample_available_global
+WJ-1-87	0.0356148697960919	50	sample_available_global
+WJ-1-88	0.0275868766077139	50	sample_available_global
+WJ-1-89	0.040209371780179	50	sample_available_global
+WJ-1-9	-0.140734766182341	50	sample_available_global
+WJ-1-91	0.0206923340722156	50	sample_available_global
+WJ-1-92	0.05440077201213	50	sample_available_global
+WJ-1-93	0.0532831321308578	50	sample_available_global
+WJ-1-94	0.0401031681154151	50	sample_available_global
+WJ-1-98	0.129017729561795	50	sample_available_global
+WJ-1-99	0.100213433861519	50	sample_available_global
+WJ-1-69	0.452065571325743	50	sample_available_global
+WJ-1-70	0.348740790157429	50	sample_available_global
+WJ-1-71	0.445179185572265	50	sample_available_global
+WJ-1-72	0.312966871615917	50	sample_available_global
+WJ-1-73	0.242921241964101	50	sample_available_global
+WJ-1-74	0.208777901631287	50	sample_available_global
+WJ-1-75	0.276405664849037	50	sample_available_global
+WJ-1-76	0.292859199783656	50	sample_available_global
+WJ-1-77	0.23924213283189	50	sample_available_global
+WJ-1-10	-0.103510224446453	50	sample_dual_available
+WJ-1-100	0.134220117774099	50	sample_dual_available
+WJ-1-106	-0.0102165664388885	50	sample_dual_available
+WJ-1-107	-0.0215619750021929	50	sample_dual_available
+WJ-1-108	-0.00959777794852812	49	sample_dual_available
+WJ-1-109	0.0389630769936709	50	sample_dual_available
+WJ-1-11	-0.0302933780874994	50	sample_dual_available
+WJ-1-110	0.000962379719162243	50	sample_dual_available
+WJ-1-111	0.0495641995568654	49	sample_dual_available
+WJ-1-113	0.0345826746496023	50	sample_dual_available
+WJ-1-114	-0.00484954862646347	50	sample_dual_available
+WJ-1-115	-0.00856100473829358	50	sample_dual_available
+WJ-1-116	-0.0452731842040066	50	sample_dual_available
+WJ-1-117	-0.0279941587907047	49	sample_dual_available
+WJ-1-118	-0.0534539319692264	50	sample_dual_available
+WJ-1-119	-0.0289129621584756	50	sample_dual_available
+WJ-1-12	-0.116884889873781	50	sample_dual_available
+WJ-1-120	-0.0551880884691727	50	sample_dual_available
+WJ-1-121	-0.0111471779735979	50	sample_dual_available
+WJ-1-122	-0.030957821541076	50	sample_dual_available
+WJ-1-124	-0.0648881622316644	50	sample_dual_available
+WJ-1-125	0.0211241800736168	50	sample_dual_available
+WJ-1-126	-0.0153851875781257	50	sample_dual_available
+WJ-1-127	-0.0331920122814537	50	sample_dual_available
+WJ-1-128	0.0347979693772942	50	sample_dual_available
+WJ-1-129	0.105688136212855	50	sample_dual_available
+WJ-1-13	-0.0412749065616609	50	sample_dual_available
+WJ-1-130	-0.0347395937097872	50	sample_dual_available
+WJ-1-131	-0.0363806670160187	50	sample_dual_available
+WJ-1-132	-0.0660863456844609	50	sample_dual_available
+WJ-1-133	0.0262102453064941	50	sample_dual_available
+WJ-1-134	-0.0565650383209224	50	sample_dual_available
+WJ-1-135	-0.0401610615506414	50	sample_dual_available
+WJ-1-136	-0.0345235584101928	50	sample_dual_available
+WJ-1-137	0.00238158043310577	50	sample_dual_available
+WJ-1-138	-0.00281909642994549	50	sample_dual_available
+WJ-1-139	-0.0714703752755028	50	sample_dual_available
+WJ-1-14	-0.111702308811932	50	sample_dual_available
+WJ-1-140	-0.0395320700291926	50	sample_dual_available
+WJ-1-142	-0.120350082700551	50	sample_dual_available
+WJ-1-143	-0.0973925659386872	50	sample_dual_available
+WJ-1-144	-0.0876108117257033	50	sample_dual_available
+WJ-1-145	0.0310381191317042	50	sample_dual_available
+WJ-1-147	0.000905838887693022	50	sample_dual_available
+WJ-1-149	-0.0131803984698067	50	sample_dual_available
+WJ-1-15	-0.083758038947181	50	sample_dual_available
+WJ-1-151	-0.0670470303924908	50	sample_dual_available
+WJ-1-152	-0.0452321506783129	50	sample_dual_available
+WJ-1-153	0.00795151576195607	50	sample_dual_available
+WJ-1-154	-0.0589284851315313	50	sample_dual_available
+WJ-1-155	-0.00890595386173843	50	sample_dual_available
+WJ-1-156	-0.0765306909650043	50	sample_dual_available
+WJ-1-158	0.000500125208308333	50	sample_dual_available
+WJ-1-159	-0.00977534693939575	50	sample_dual_available
+WJ-1-16	-0.0309756472454694	50	sample_dual_available
+WJ-1-160	0.0583697610680112	50	sample_dual_available
+WJ-1-161	0.0838586432562494	50	sample_dual_available
+WJ-1-163	-0.000595175015966731	50	sample_dual_available
+WJ-1-164	0.0119990349745827	50	sample_dual_available
+WJ-1-165	0.0495813252171473	50	sample_dual_available
+WJ-1-166	0.0520193853825504	50	sample_dual_available
+WJ-1-167	0.103803634112062	50	sample_dual_available
+WJ-1-168	0.064709133851018	50	sample_dual_available
+WJ-1-169	0.045123148979954	50	sample_dual_available
+WJ-1-17	-0.124077780983956	50	sample_dual_available
+WJ-1-170	0.118749343868338	50	sample_dual_available
+WJ-1-172	0.0262050362970605	50	sample_dual_available
+WJ-1-173	0.00659457810141362	49	sample_dual_available
+WJ-1-174	0.107853391030822	50	sample_dual_available
+WJ-1-175	0.0213048703609573	50	sample_dual_available
+WJ-1-179	0.502185412930057	50	sample_dual_available
+WJ-1-18	-0.0328196806645735	50	sample_dual_available
+WJ-1-180	0.142820034896243	50	sample_dual_available
+WJ-1-181	0.00523677833750824	50	sample_dual_available
+WJ-1-182	0.0813162776475238	50	sample_dual_available
+WJ-1-183	0.120512976550781	50	sample_dual_available
+WJ-1-184	0.118414950370298	50	sample_dual_available
+WJ-1-185	0.0299935331722594	50	sample_dual_available
+WJ-1-186	0.179038857796627	50	sample_dual_available
+WJ-1-188	-0.0418059598303913	50	sample_dual_available
+WJ-1-189	-0.0361902466118771	50	sample_dual_available
+WJ-1-190	-0.0363372005911202	50	sample_dual_available
+WJ-1-194	0.00296266154041192	50	sample_dual_available
+WJ-1-195	0.11527357557225	50	sample_dual_available
+WJ-1-196	-0.0146351368176916	50	sample_dual_available
+WJ-1-197	0.164893234426714	50	sample_dual_available
+WJ-1-198	0.0363638518731939	50	sample_dual_available
+WJ-1-199	0.0250581128824656	50	sample_dual_available
+WJ-1-2	-0.163142725298176	50	sample_dual_available
+WJ-1-20	-0.0354245566746023	50	sample_dual_available
+WJ-1-200	0.00191225521382066	50	sample_dual_available
+WJ-1-201	0.0174120220224019	50	sample_dual_available
+WJ-1-202	0.0472725544122774	50	sample_dual_available
+WJ-1-204	-0.0139850925053935	50	sample_dual_available
+WJ-1-205	-0.00627445344423094	50	sample_dual_available
+WJ-1-206	0.0186753751480353	50	sample_dual_available
+WJ-1-207	-0.0100561466178455	50	sample_dual_available
+WJ-1-210	-0.00708107871362529	50	sample_dual_available
+WJ-1-211	-0.0771630310497713	50	sample_dual_available
+WJ-1-214	-0.0944601825234592	50	sample_dual_available
+WJ-1-215	-0.0645043949159003	50	sample_dual_available
+WJ-1-216	-0.0856692152249821	50	sample_dual_available
+WJ-1-217	-0.0614896433629752	50	sample_dual_available
+WJ-1-218	-0.0747401407727146	50	sample_dual_available
+WJ-1-22	-0.034544565167355	50	sample_dual_available
+WJ-1-220	-0.0445099158289644	50	sample_dual_available
+WJ-1-221	-0.0750414884680559	50	sample_dual_available
+WJ-1-222	-0.0146050042633519	50	sample_dual_available
+WJ-1-223	-0.102056236823877	50	sample_dual_available
+WJ-1-224	-0.0688080558458282	50	sample_dual_available
+WJ-1-225	-0.032830183228306	50	sample_dual_available
+WJ-1-226	-0.0335936602832874	50	sample_dual_available
+WJ-1-227	-0.0181401552945069	50	sample_dual_available
+WJ-1-228	-0.00803999116257259	50	sample_dual_available
+WJ-1-229	-0.0185590097718134	50	sample_dual_available
+WJ-1-23	0.023729486311904	50	sample_dual_available
+WJ-1-230	-0.0395795851943674	50	sample_dual_available
+WJ-1-24	-0.0537352814844248	50	sample_dual_available
+WJ-1-25	-0.0695752422367804	50	sample_dual_available
+WJ-1-26	-0.231841172644085	50	sample_dual_available
+WJ-1-28	-0.253901591919401	50	sample_dual_available
+WJ-1-29	-0.219751874361279	50	sample_dual_available
+WJ-1-3	-0.159213548126697	50	sample_dual_available
+WJ-1-30	-0.317505852744549	50	sample_dual_available
+WJ-1-31	-0.319902472151188	50	sample_dual_available
+WJ-1-32	-0.257207017520155	50	sample_dual_available
+WJ-1-33	-0.292558097060304	50	sample_dual_available
+WJ-1-34	-0.261993142261208	50	sample_dual_available
+WJ-1-35	-0.313015648879102	50	sample_dual_available
+WJ-1-36	-0.332284338381928	50	sample_dual_available
+WJ-1-37	-0.271620269872447	50	sample_dual_available
+WJ-1-38	-0.269124843928047	50	sample_dual_available
+WJ-1-39	-0.309251516919719	50	sample_dual_available
+WJ-1-4	-0.0579381565934405	50	sample_dual_available
+WJ-1-40	-0.216492149254901	50	sample_dual_available
+WJ-1-41	-0.206729845153379	50	sample_dual_available
+WJ-1-42	-0.192191957388282	50	sample_dual_available
+WJ-1-46	-0.160910166714583	50	sample_dual_available
+WJ-1-47	-0.133819038070385	50	sample_dual_available
+WJ-1-48	-0.148488089213064	50	sample_dual_available
+WJ-1-49	0.126370134548612	50	sample_dual_available
+WJ-1-50	-0.0382393193446617	50	sample_dual_available
+WJ-1-51	-0.0205947506300674	50	sample_dual_available
+WJ-1-52	-0.177575125478544	50	sample_dual_available
+WJ-1-53	-0.0120469497568045	50	sample_dual_available
+WJ-1-55	0.0829957455152979	50	sample_dual_available
+WJ-1-56	0.0987950158702517	50	sample_dual_available
+WJ-1-57	0.100421078561325	50	sample_dual_available
+WJ-1-58	0.0845580893875493	50	sample_dual_available
+WJ-1-6	0.0126366072579174	50	sample_dual_available
+WJ-1-60	0.0574410558992327	50	sample_dual_available
+WJ-1-61	0.068511478477344	50	sample_dual_available
+WJ-1-62	0.102130241465932	50	sample_dual_available
+WJ-1-63	0.0696612731262896	50	sample_dual_available
+WJ-1-64	0.101715874412889	50	sample_dual_available
+WJ-1-65	0.165688263838806	50	sample_dual_available
+WJ-1-68	0.0281867924244104	50	sample_dual_available
+WJ-1-78	0.124599590641775	50	sample_dual_available
+WJ-1-79	0.133712193159965	50	sample_dual_available
+WJ-1-8	-0.0976977441870908	50	sample_dual_available
+WJ-1-80	0.0443489936954151	50	sample_dual_available
+WJ-1-81	0.140994912947672	50	sample_dual_available
+WJ-1-82	0.0306414386725926	50	sample_dual_available
+WJ-1-84	-0.0184497055673276	50	sample_dual_available
+WJ-1-85	0.0502657776776871	50	sample_dual_available
+WJ-1-86	0.0587263429923226	50	sample_dual_available
+WJ-1-87	0.0356148697960919	50	sample_dual_available
+WJ-1-88	0.0277177703146663	50	sample_dual_available
+WJ-1-89	0.0403402654871314	50	sample_dual_available
+WJ-1-9	-0.14086565988929	50	sample_dual_available
+WJ-1-91	0.0206923340722156	50	sample_dual_available
+WJ-1-92	0.0544007720121265	50	sample_dual_available
+WJ-1-93	0.0532831321308613	50	sample_dual_available
+WJ-1-94	0.0401031681154187	50	sample_dual_available
+WJ-1-98	0.129080205872651	50	sample_dual_available
+WJ-1-99	0.100213433861519	50	sample_dual_available
+WJ-1-69	0.45213101817922	50	sample_dual_available
+WJ-1-70	0.348675343303952	50	sample_dual_available
+WJ-1-71	0.445113738718792	50	sample_dual_available
+WJ-1-72	0.312901424762444	50	sample_dual_available
+WJ-1-73	0.242855795110625	50	sample_dual_available
+WJ-1-74	0.208712454777814	50	sample_dual_available
+WJ-1-75	0.276340217995564	50	sample_dual_available
+WJ-1-76	0.29279375293018	50	sample_dual_available
+WJ-1-77	0.239176685978414	50	sample_dual_available
+WJ-1-10	-0.352505127077187	50	legacy_group_help
+WJ-1-100	0.103474008485286	50	legacy_group_help
+WJ-1-106	0.130217362087702	50	legacy_group_help
+WJ-1-107	-0.0399048679970733	50	legacy_group_help
+WJ-1-108	0.0100513084263554	49	legacy_group_help
+WJ-1-109	0.0497751438201419	50	legacy_group_help
+WJ-1-11	-0.131991781683055	50	legacy_group_help
+WJ-1-110	-0.230633037176588	50	legacy_group_help
+WJ-1-111	0.117630626099682	49	legacy_group_help
+WJ-1-113	-0.0311173768675239	50	legacy_group_help
+WJ-1-114	0.11751424789637	50	legacy_group_help
+WJ-1-115	0.142910503505767	50	legacy_group_help
+WJ-1-116	-0.00963372293749742	50	legacy_group_help
+WJ-1-117	-0.298781363379113	49	legacy_group_help
+WJ-1-118	-0.0906203207347716	50	legacy_group_help
+WJ-1-119	0.0642488848703877	50	legacy_group_help
+WJ-1-12	-0.200408410172138	50	legacy_group_help
+WJ-1-120	-0.101769265347375	50	legacy_group_help
+WJ-1-121	0.137919680982154	50	legacy_group_help
+WJ-1-122	-0.278535284703366	50	legacy_group_help
+WJ-1-124	0.030413794988231	50	legacy_group_help
+WJ-1-125	-0.0891495572935916	50	legacy_group_help
+WJ-1-126	0.0485429003114852	50	legacy_group_help
+WJ-1-127	0.0916609712729972	50	legacy_group_help
+WJ-1-128	0.0608248850549273	50	legacy_group_help
+WJ-1-129	0.185033512061825	50	legacy_group_help
+WJ-1-13	-0.282612547510993	50	legacy_group_help
+WJ-1-130	-0.21627466004826	50	legacy_group_help
+WJ-1-131	0.12376169712736	50	legacy_group_help
+WJ-1-132	-0.0878084987513859	50	legacy_group_help
+WJ-1-133	-0.114012908952567	50	legacy_group_help
+WJ-1-134	0.106720889172255	50	legacy_group_help
+WJ-1-135	-0.0362497603363288	50	legacy_group_help
+WJ-1-136	-0.137567951260998	50	legacy_group_help
+WJ-1-137	0.106526275732776	50	legacy_group_help
+WJ-1-138	0.068768012187725	50	legacy_group_help
+WJ-1-139	-0.0564860232427584	50	legacy_group_help
+WJ-1-14	-0.259591813558902	50	legacy_group_help
+WJ-1-140	-0.222849861411763	50	legacy_group_help
+WJ-1-142	-0.0159053206163584	50	legacy_group_help
+WJ-1-143	-0.338552585198567	50	legacy_group_help
+WJ-1-144	-0.256346400690259	50	legacy_group_help
+WJ-1-145	-0.110396336802953	50	legacy_group_help
+WJ-1-147	0.105553094430419	50	legacy_group_help
+WJ-1-149	0.144564646219507	50	legacy_group_help
+WJ-1-15	-0.106136157306072	50	legacy_group_help
+WJ-1-151	-0.106193238899284	50	legacy_group_help
+WJ-1-152	0.00140112543215665	50	legacy_group_help
+WJ-1-153	0.233758734384796	50	legacy_group_help
+WJ-1-154	0.0886452296868647	50	legacy_group_help
+WJ-1-155	-0.0760312103998508	50	legacy_group_help
+WJ-1-156	0.120464287894546	50	legacy_group_help
+WJ-1-158	-0.00481637535347446	50	legacy_group_help
+WJ-1-159	0.108305847211817	50	legacy_group_help
+WJ-1-16	-0.167064489523838	50	legacy_group_help
+WJ-1-160	-0.300905092913467	50	legacy_group_help
+WJ-1-161	-0.129853607164584	50	legacy_group_help
+WJ-1-163	-0.35550992937667	50	legacy_group_help
+WJ-1-164	-0.190174600143326	50	legacy_group_help
+WJ-1-165	-0.112446989829763	50	legacy_group_help
+WJ-1-166	0.143064134828837	50	legacy_group_help
+WJ-1-167	-0.0118311996674976	50	legacy_group_help
+WJ-1-168	-0.17945988261221	50	legacy_group_help
+WJ-1-169	-0.126053960292996	50	legacy_group_help
+WJ-1-17	-0.156947278398736	50	legacy_group_help
+WJ-1-170	-0.0428977891397331	50	legacy_group_help
+WJ-1-172	0.105860649450907	50	legacy_group_help
+WJ-1-173	-0.333652607183097	49	legacy_group_help
+WJ-1-174	0.185095616974234	50	legacy_group_help
+WJ-1-175	0.081409701097062	50	legacy_group_help
+WJ-1-179	0.64192437068683	50	legacy_group_help
+WJ-1-18	-0.102530457722235	50	legacy_group_help
+WJ-1-180	-0.285902976227618	50	legacy_group_help
+WJ-1-181	-0.307003464869769	50	legacy_group_help
+WJ-1-182	0.110623530884123	50	legacy_group_help
+WJ-1-183	0.0345139529682719	50	legacy_group_help
+WJ-1-184	0.257802451574712	50	legacy_group_help
+WJ-1-185	-0.0768914061215149	50	legacy_group_help
+WJ-1-186	0.155527786624365	50	legacy_group_help
+WJ-1-188	-0.209609844865412	50	legacy_group_help
+WJ-1-189	0.0373411447903074	50	legacy_group_help
+WJ-1-190	-0.00140112543215665	50	legacy_group_help
+WJ-1-194	0.0616835914903184	50	legacy_group_help
+WJ-1-195	0.305457428793819	50	legacy_group_help
+WJ-1-196	-0.00224241923642765	50	legacy_group_help
+WJ-1-197	0.130896095128715	50	legacy_group_help
+WJ-1-198	0.0263116588423422	50	legacy_group_help
+WJ-1-199	0.214827370861745	50	legacy_group_help
+WJ-1-2	-0.347050056927326	50	legacy_group_help
+WJ-1-20	-0.115158843404902	50	legacy_group_help
+WJ-1-200	0.0986827477735126	50	legacy_group_help
+WJ-1-201	0.00661671314622225	50	legacy_group_help
+WJ-1-202	0.0508204882821524	50	legacy_group_help
+WJ-1-204	0.126136913753246	50	legacy_group_help
+WJ-1-205	0.0803211284996301	50	legacy_group_help
+WJ-1-206	0.0186161652582619	50	legacy_group_help
+WJ-1-207	0.0934104949970909	50	legacy_group_help
+WJ-1-210	0.210952334315838	50	legacy_group_help
+WJ-1-211	0.0554141268197519	50	legacy_group_help
+WJ-1-214	-0.0238280830182482	50	legacy_group_help
+WJ-1-215	0.0893124728619732	50	legacy_group_help
+WJ-1-216	-0.0696703995238863	50	legacy_group_help
+WJ-1-217	-0.00548838049874334	50	legacy_group_help
+WJ-1-218	0.0351082820535851	50	legacy_group_help
+WJ-1-22	-0.26010094023972	50	legacy_group_help
+WJ-1-220	0.04772884529282	50	legacy_group_help
+WJ-1-221	0.0410240744835662	50	legacy_group_help
+WJ-1-222	0.200438928687458	50	legacy_group_help
+WJ-1-223	0.106389887316176	50	legacy_group_help
+WJ-1-224	0.070641460953258	50	legacy_group_help
+WJ-1-225	-0.0113843159651417	50	legacy_group_help
+WJ-1-226	-0.0157049344536233	50	legacy_group_help
+WJ-1-227	0.142352857956819	50	legacy_group_help
+WJ-1-228	-0.0392071855414642	50	legacy_group_help
+WJ-1-229	0.163745360727734	50	legacy_group_help
+WJ-1-23	-0.14695133144042	50	legacy_group_help
+WJ-1-230	0.0446746844420964	50	legacy_group_help
+WJ-1-24	-0.347606363664976	50	legacy_group_help
+WJ-1-25	-0.0876431793325523	50	legacy_group_help
+WJ-1-26	-0.277082718572004	50	legacy_group_help
+WJ-1-28	-0.308323426340419	50	legacy_group_help
+WJ-1-29	-0.428692065776314	50	legacy_group_help
+WJ-1-3	-0.315853742739833	50	legacy_group_help
+WJ-1-30	-0.28870986193072	50	legacy_group_help
+WJ-1-31	-0.304570270446405	50	legacy_group_help
+WJ-1-32	-0.307262985066227	50	legacy_group_help
+WJ-1-33	-0.197754607260755	50	legacy_group_help
+WJ-1-34	-0.120539074487866	50	legacy_group_help
+WJ-1-35	-0.326779512117501	50	legacy_group_help
+WJ-1-36	-0.229311113619065	50	legacy_group_help
+WJ-1-37	-0.227744822611019	50	legacy_group_help
+WJ-1-38	-0.121631986644001	50	legacy_group_help
+WJ-1-39	-0.421654448572564	50	legacy_group_help
+WJ-1-4	-0.195894329321504	50	legacy_group_help
+WJ-1-40	-0.218039246569472	50	legacy_group_help
+WJ-1-41	-0.450748262641174	50	legacy_group_help
+WJ-1-42	-0.302963375482499	50	legacy_group_help
+WJ-1-46	-0.197459180820118	50	legacy_group_help
+WJ-1-47	-0.120676569132506	50	legacy_group_help
+WJ-1-48	-0.14151903322281	50	legacy_group_help
+WJ-1-49	-0.0178498827264271	50	legacy_group_help
+WJ-1-50	-0.0650929315251112	50	legacy_group_help
+WJ-1-51	-0.0320656520839719	50	legacy_group_help
+WJ-1-52	-0.236772615509796	50	legacy_group_help
+WJ-1-53	-0.0478887116677846	50	legacy_group_help
+WJ-1-55	0.0560901634694417	50	legacy_group_help
+WJ-1-56	0.00146464238263633	50	legacy_group_help
+WJ-1-57	0.0409417016461795	50	legacy_group_help
+WJ-1-58	0.134800719243071	50	legacy_group_help
+WJ-1-6	-0.259629696636875	50	legacy_group_help
+WJ-1-60	0.00497876899876459	50	legacy_group_help
+WJ-1-61	-0.0196304427460916	50	legacy_group_help
+WJ-1-62	0.0540297041753064	50	legacy_group_help
+WJ-1-63	0.152917621733415	50	legacy_group_help
+WJ-1-64	0.000218819254644842	50	legacy_group_help
+WJ-1-65	0.104724284875662	50	legacy_group_help
+WJ-1-68	-0.00820155950590262	50	legacy_group_help
+WJ-1-78	0.175421349688914	50	legacy_group_help
+WJ-1-79	0.15507997692908	50	legacy_group_help
+WJ-1-8	-0.0664782057974591	50	legacy_group_help
+WJ-1-80	0.0207009359944266	50	legacy_group_help
+WJ-1-81	0.164330991215014	50	legacy_group_help
+WJ-1-82	0.124262250505563	50	legacy_group_help
+WJ-1-84	-0.20319527109918	50	legacy_group_help
+WJ-1-85	0.10038287452328	50	legacy_group_help
+WJ-1-86	0.0223474749726975	50	legacy_group_help
+WJ-1-87	0.21760000375215	50	legacy_group_help
+WJ-1-88	0	50	legacy_group_help
+WJ-1-89	0.182418823318461	50	legacy_group_help
+WJ-1-9	-0.230856246837742	50	legacy_group_help
+WJ-1-91	0.0688681891349354	50	legacy_group_help
+WJ-1-92	0.130549487485947	50	legacy_group_help
+WJ-1-93	0.0304101536957759	50	legacy_group_help
+WJ-1-94	0.11057981877401	50	legacy_group_help
+WJ-1-98	0.268481968373582	50	legacy_group_help
+WJ-1-99	0.230599591204413	50	legacy_group_help
+WJ-1-69	0.513232578814897	50	legacy_group_help
+WJ-1-70	0.280424724192315	50	legacy_group_help
+WJ-1-71	0.523456330661169	50	legacy_group_help
+WJ-1-72	0.403474667336788	50	legacy_group_help
+WJ-1-73	0.345003076796953	50	legacy_group_help
+WJ-1-74	0.324015003885691	50	legacy_group_help
+WJ-1-75	0.245184273060666	50	legacy_group_help
+WJ-1-76	0.299545563838315	50	legacy_group_help
+WJ-1-77	0.228433835420063	50	legacy_group_help

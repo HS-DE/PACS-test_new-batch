@@ -1,0 +1,3 @@
+dataset	scale
+protein	log2 transformed from raw positive intensity
+HELP	log2 transformed automatically; raw median=905280

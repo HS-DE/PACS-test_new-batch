@@ -1,0 +1,14 @@
+strategy	family	uses_group_in_preprocessing	description
+S00_raw	baseline	FALSE	Raw log2 protein data
+S01_legacy_group2	legacy	TRUE	Legacy-like independent Run/Plate plus group2 HELP and group2 median
+S02_run_only	scalar	FALSE	Internal HELP Run correction only
+S03_minimal_run_plate	scalar	FALSE	Run plus QC endogenous-protein Plate correction
+S04_sequential_complete	scalar	FALSE	Run + Plate + complete-HELP sample correction
+S05_sequential_complete_group_median	scalar	TRUE	S04 plus group2 median normalization
+S06_group_help	scalar	TRUE	Run + Plate + group2-specific HELP correction
+S07_group_help_group_median	scalar	TRUE	S06 plus group2 median normalization
+S08_available_help	scalar	FALSE	Missing-tolerant weighted HELP correction
+S09_dual_anchor	scalar	FALSE	Dual Internal HELP/protein Run anchor + Plate + available HELP
+S10_batch_model	model	FALSE	Protein-specific protected group2 + Run + Plate model
+S11_batch_help_pc_model	model	FALSE	Protein-specific protected model with HELP PCs
+S12_conditional_model	model	FALSE	Apply model correction only when technical partial R2 >= 0.05
