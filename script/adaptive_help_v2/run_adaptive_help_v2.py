@@ -227,23 +227,42 @@ def apply_protein_plate(mat: pd.DataFrame, meta: pd.DataFrame,
 def sample_help_decisions(help_mat: pd.DataFrame, study_ids: list[str],
                           panel: list[str], reference: pd.Series, weights: pd.Series,
                           run_scalar: pd.Series, plate_scalar: pd.Series,
-                          protein_mat: pd.DataFrame) -> pd.DataFrame:
+                          protein_mat: pd.DataFrame, study_meta: pd.DataFrame) -> pd.DataFrame:
+    """
+    只校正同一 Run/Plate 区块内部的 HELP 异常。
+
+    先去掉由 Internal-QC 和 pooled-QC 估计的 Run/Plate HELP 偏移，
+    再把研究样本 HELP factor 在各 Run×Plate 区块内居中。这样样本级
+    correction 不会人为制造新的 Run/Plate 整体偏移。
+    """
     f = [x for x in panel if x in help_mat.index]
     dev = help_mat.loc[f, study_ids].sub(reference.loc[f], axis=0)
     technical = run_scalar.reindex(study_ids).fillna(0) + plate_scalar.reindex(study_ids).fillna(0)
     dev = dev.sub(technical, axis=1)
 
+    raw_factor = pd.Series({
+        sid: weighted_median(dev[sid].to_numpy(), weights.loc[f].to_numpy())
+        for sid in study_ids
+    })
+    meta = study_meta.set_index("sample_id").loc[study_ids].copy()
+    meta["technical_block"] = meta["Run"].astype(str) + "|P" + meta["Plate"].astype(str)
+    block_center = raw_factor.groupby(meta["technical_block"]).transform("median")
+    residual_factor = raw_factor - block_center
+    residual_dev = dev.sub(block_center, axis=1)
+
+    protein_median = protein_mat.median(axis=0, skipna=True).reindex(study_ids)
+    protein_block_center = protein_median.groupby(meta["technical_block"]).transform("median")
+    protein_residual = protein_median - protein_block_center
+
     rows = []
-    cohort_protein_median = protein_mat.median(axis=0, skipna=True)
-    center_protein = cohort_protein_median.median()
     for sid in study_ids:
-        vals = dev[sid].to_numpy()
-        factor = weighted_median(vals, weights.loc[f].to_numpy())
+        vals = residual_dev[sid].to_numpy()
+        factor = float(residual_factor.get(sid, np.nan))
         ok = np.isfinite(vals)
         coherence = np.nan
         if ok.sum() > 0 and np.isfinite(factor) and abs(factor) > 1e-8:
             coherence = float(np.mean(np.sign(vals[ok]) == np.sign(factor)))
-        protein_shift = float(cohort_protein_median.get(sid, np.nan) - center_protein)
+        protein_shift = float(protein_residual.get(sid, np.nan))
         concordant = bool(
             np.isfinite(factor) and np.isfinite(protein_shift)
             and abs(factor) >= 0.03 and abs(protein_shift) >= 0.03
@@ -251,6 +270,9 @@ def sample_help_decisions(help_mat: pd.DataFrame, study_ids: list[str],
         )
         rows.append({
             "sample_id": sid,
+            "technical_block": meta.loc[sid, "technical_block"],
+            "raw_sample_help_factor": float(raw_factor.get(sid, np.nan)),
+            "block_help_center": float(block_center.get(sid, np.nan)),
             "sample_help_factor": factor,
             "help_coherence": coherence,
             "protein_global_shift": protein_shift,
@@ -548,7 +570,7 @@ def main():
 
     decisions = sample_help_decisions(
         help_mat, study_ids, selected, ref, weights,
-        run_study, plate_help_study, study_qc_plate
+        run_study, plate_help_study, study_qc_plate, study_meta
     )
     decisions.to_csv(OUT / "factors" / "sample_help_decisions.csv", index=False)
     adaptive_scalar = decisions.set_index("sample_id")["applied_sample_factor"]
@@ -610,6 +632,9 @@ def main():
         qcsd = qc_median_sd(qc_m.loc[pca_features])
         variance = float(np.nanmedian(study_m.loc[pca_features].var(axis=1, skipna=True)))
         variance_ratio = variance / raw_var if raw_var > 0 else np.nan
+        sample_median = study_m.loc[pca_features].median(axis=0, skipna=True)
+        help_residual = decisions.set_index("sample_id")["sample_help_factor"].reindex(study_ids)
+        help_protein_abs_corr = abs(float(sample_median.corr(help_residual, method="spearman")))
         auc_mean, auc_sd, plate_auc = cv_auc(study_m.loc[pca_features], study_meta, 20)
         rows.append({
             "strategy": name,
@@ -621,6 +646,7 @@ def main():
             "between_within_ratio": between_within,
             "group_silhouette": sil,
             "study_variance_ratio_vs_raw": variance_ratio,
+            "help_protein_abs_spearman": help_protein_abs_corr,
             "cv_auc_mean": auc_mean,
             "cv_auc_sd": auc_sd,
             "leave_one_plate_out_auc": plate_auc,
@@ -629,11 +655,17 @@ def main():
     metrics = pd.DataFrame(rows)
     raw_row = metrics.set_index("strategy").loc["S0_raw"]
     variance_penalty = (metrics["study_variance_ratio_vs_raw"] - 1).abs()
+    help_corr_gain = (
+        1
+        + raw_row["help_protein_abs_spearman"]
+        - metrics["help_protein_abs_spearman"]
+    ).clip(0, 2)
     metrics["label_free_score"] = (
-        0.35 * (raw_row["qc_median_log2_sd"] / metrics["qc_median_log2_sd"].clip(lower=1e-6))
-        + 0.25 * (raw_row["plate_eta2_pc1_5"] / metrics["plate_eta2_pc1_5"].clip(lower=1e-6))
-        + 0.20 * (raw_row["run_eta2_pc1_5"] / metrics["run_eta2_pc1_5"].clip(lower=1e-6))
-        + 0.20 * (1 - variance_penalty.clip(0, 1))
+        0.30 * (raw_row["qc_median_log2_sd"] / metrics["qc_median_log2_sd"].clip(lower=1e-6))
+        + 0.20 * (raw_row["plate_eta2_pc1_5"] / metrics["plate_eta2_pc1_5"].clip(lower=1e-6))
+        + 0.15 * (raw_row["run_eta2_pc1_5"] / metrics["run_eta2_pc1_5"].clip(lower=1e-6))
+        + 0.20 * help_corr_gain
+        + 0.15 * (1 - variance_penalty.clip(0, 1))
     )
     safety = (
         metrics["plate_eta2_pc1_5"].le(raw_row["plate_eta2_pc1_5"] * 1.05)
@@ -644,6 +676,14 @@ def main():
     if candidates.empty:
         candidates = metrics[metrics["strategy"].isin(["S0_raw", "S1_help_run", "S2_help_run_plate"])].copy()
     selected_strategy = candidates.sort_values("label_free_score", ascending=False).iloc[0]["strategy"]
+    metrics["within_group_improvement_pct_vs_raw"] = (
+        100 * (raw_row["within_group_distance"] - metrics["within_group_distance"])
+        / raw_row["within_group_distance"]
+    )
+    metrics["between_within_improvement_pct_vs_raw"] = (
+        100 * (metrics["between_within_ratio"] - raw_row["between_within_ratio"])
+        / raw_row["between_within_ratio"]
+    )
     metrics["selected"] = metrics["strategy"].eq(selected_strategy)
     metrics.to_csv(OUT / "metrics" / "strategy_summary.csv", index=False)
 
@@ -703,8 +743,8 @@ def main():
 2. 从 50 条 HELP 中，按检出率、Internal-QC 稳定性、pooled-QC 稳定性和冗余程度，自动选择 {len(selected)} 条 Core HELP。
 3. 用 Internal-QC HELP 判断并校正仪器 Run 偏移。
 4. 用 pooled-QC HELP 校正板级 detection 偏移，再用 pooled-QC endogenous proteins 校正板级前处理偏移。
-5. 每个研究样本先判断 HELP 偏移是否真实且与整体蛋白偏移一致，再决定 0%、25% 或 50% 校正；不再对所有样本一刀切。
-6. 比较 7 个候选流程，以 QC 变异、Plate/Run 残留和生物变异保留作为主选择指标；HC/T2DM 聚集和 AUC 只作验证。
+5. 每个研究样本先在同一 Run/Plate 区块内判断 HELP 偏移是否真实且与整体蛋白偏移一致，再决定 0%、25% 或 50% 校正；不再对所有样本一刀切。
+6. 比较 7 个候选流程，以 QC 变异、Plate/Run 残留、HELP/蛋白残留相关和生物变异保留作为主选择指标；HC/T2DM 聚集和 AUC 只作验证。
 
 ## 关键结果
 
@@ -719,7 +759,9 @@ def main():
 - Plate eta²: **{selected_row["plate_eta2_pc1_5"]:.4f}**
 - Run eta²: **{selected_row["run_eta2_pc1_5"]:.4f}**
 - Within-group distance: **{selected_row["within_group_distance"]:.4f}**
+- Within-group improvement vs raw: **{selected_row["within_group_improvement_pct_vs_raw"]:.2f}%**
 - Between/within ratio: **{selected_row["between_within_ratio"]:.4f}**
+- Between/within improvement vs raw: **{selected_row["between_within_improvement_pct_vs_raw"]:.2f}%**
 - Repeated CV AUC: **{selected_row["cv_auc_mean"]:.3f} ± {selected_row["cv_auc_sd"]:.3f}**
 - Leave-one-plate-out AUC: **{selected_row["leave_one_plate_out_auc"]:.3f}**
 
