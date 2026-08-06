@@ -1,0 +1,52 @@
+name: Adaptive HELP normalization v2
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [adaptive-help-normalization-v2]
+    paths:
+      - "script/adaptive_help_v2/**"
+      - "data/**"
+      - ".github/workflows/adaptive-help-v2.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+          cache-dependency-path: script/adaptive_help_v2/requirements.txt
+
+      - name: Install dependencies
+        run: python -m pip install -r script/adaptive_help_v2/requirements.txt
+
+      - name: Run adaptive HELP pipeline
+        run: python script/adaptive_help_v2/run_adaptive_help_v2.py
+
+      - name: Upload analysis results
+        uses: actions/upload-artifact@v4
+        with:
+          name: adaptive-help-v2-results
+          path: Results/adaptive_help_v2
+          if-no-files-found: error
+
+      - name: Commit generated results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Results/adaptive_help_v2
+          if git diff --cached --quiet; then
+            echo "No result changes to commit."
+          else
+            git commit -m "Run adaptive HELP normalization v2"
+            git push
+          fi
