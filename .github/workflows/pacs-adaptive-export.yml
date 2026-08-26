@@ -35,3 +35,5 @@ jobs:
           path: adaptive_export/
           if-no-files-found: error
           retention-days: 30
+
+# Trigger marker: fixed setup-python configuration
